@@ -1,0 +1,36 @@
+numero1 = int(input("Digite o primeiro numero: "))
+numero2 = int(input("Digite o segundo numero: "))
+numero3 = float(input("Digite o numero real: "))
+
+
+resultado1 = (2 * numero1) * (numero2 / 2)
+print("O produto do dobro do primeiro com metade do segundo é: ")
+resultado2 = (3 * numero1) + numero3
+print("A soma do triplo do primeiro com o terceiro é: ")
+print("O terceiro elevado ao cubo é: ")
+
+
+valor = float(input("Digite um valor: "))
+if valor > 0: 
+  print("O valor é positivo.")
+  elif valor < 0: 
+    print("O valor é negativo.")
+    else: 
+      print("O valor é zero.")
+
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+media = (nota1 + nota2) / 2
+if media >= 7.0: 
+  print("Você esta aprovado.")
+  else: 
+    print(" Você esta rprovado.")
+
+
+numero1 = float(input("Digite o primeiro nuúmero: "))
+numero2 = float(input("Digite o segundo número: "))
+numero3 = float(input("Digite o terceiro número: "))
+maior_numero = max(numero1, numero2, numero3)
+print("O maior número é: ")
+
